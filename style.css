@@ -1,4 +1,3 @@
-
 /* General Styles */
 * {
     margin: 0;
@@ -34,7 +33,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #007bff;
+    background: linear-gradient(135deg, #007bff, #00bfff);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,22 +41,44 @@ body {
     z-index: 1000;
 }
 
-#splash-screen img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
+.logo-container {
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: float 3s ease-in-out infinite;
 }
 
-#splash-screen h1 {
-    font-size: 1.5rem;
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.app-name {
+    font-size: 2.5rem;
+    font-weight: 600;
     color: white;
-    font-weight: 800;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-#splash-screen p {
+.developer-name {
     font-size: 1.2rem;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Floating Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 /* Main Container */
