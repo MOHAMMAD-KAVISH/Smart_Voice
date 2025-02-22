@@ -263,6 +263,12 @@ body {
     margin-bottom: 20px;
 }
 
+#splash-screen h1 {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+
 #splash-screen p {
     font-size: 1.2rem;
     color: white;
