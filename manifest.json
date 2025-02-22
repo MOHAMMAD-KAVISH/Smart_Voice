@@ -1,6 +1,6 @@
 {
     "name": "Smart Voice Assistant",
-    "short_name": "VoiceApp",
+    "short_name": "VoiceKav",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
