@@ -10,6 +10,18 @@ if ('serviceWorker' in navigator) {
     });
 }
 
+// Hide Splash Screen and Show Main Content
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        const splashScreen = document.getElementById('splash-screen');
+        const container = document.querySelector('.container');
+
+        splashScreen.style.display = 'none';
+        container.style.display = 'block';
+    }, 3000); // 3 seconds delay
+});
+
+
 const startBtn = document.getElementById('start-btn');
 const statusDiv = document.getElementById('status');
 const transcriptTextarea = document.getElementById('transcript');
