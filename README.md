@@ -3,7 +3,7 @@
 
 ![VoiceKav Logo](icon-192x192.png)
 
-
+Watch the [VoiceKav](https://drive.google.com/file/d/1Q3TrjdVDQKuxlngpz03g6Idcip3bevDI/view) to see in action!
 
 VoiceKav is a **smart voice assistant** designed to help professionals capture action items and key points during meetings. It records voice conversations, transcribes them into text, and extracts actionable information like tasks, dates, and key discussion points. The app also integrates with Google Calendar and email for seamless task management.
 
