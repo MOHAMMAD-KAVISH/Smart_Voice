@@ -1,6 +1,6 @@
 # VoiceKav - Smart Voice Assistant for Professionals
 
-![VoiceKav Logo](icon-512x512.png)
+![VoiceKav Logo](icon-192x192.png)
 
 
 
